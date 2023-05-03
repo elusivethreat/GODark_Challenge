@@ -8,4 +8,4 @@ There is a `setup_env.ps1` that must be ran in order to load all the required so
 
 # Learner Instructions
 
-You will need to follow along in the **Lab Instructions** we've provided in this repo. They should be run from the **Windows Server 2019** machine you have set up.
+You will need to follow along in the [Lab Instructions](https://github.com/elusivethreat/GODark_Challenge/blob/main/Lab_Instructions.md) we've provided in this repo. They should be run from the **Windows Server 2019** machine you have set up.

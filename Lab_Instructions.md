@@ -74,7 +74,7 @@ Using the top menu, hit:
     ![](images/undefine_dat.PNG)
 
 
-6. Now that we've told IDA to force re-analyze that section, it dumps some assembly. Notice the section starting with `loc_`. The numbers after the underscore are related to the file offset, and won't always be the same.
+6. Now that we've told IDA to force re-analyze that section, it dumps some assembly. Notice the section starting with `loc_xxxxxx : `. The numbers after the underscore are related to the file offset, and won't always be the same.
 ![](images/create_function_p.PNG)
     - Click on the new disassembly section labeled `loc_`. 
     - Type `p` on your keyboard. This is a shortcut to convert this section to a new function
