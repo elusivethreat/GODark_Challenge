@@ -5,7 +5,7 @@
 Our threat intelligence team has been monitoring the DarkKittens hacking group closely after their recent attacks on our infrastructure. 
 Their initial payloads seem to get past our threat signatures, but our EDR flags them as they attempt to inject their final stage.
 
-The threat hunting team has identified some anomalyous behaviour at one our of remote satellite facilities where our cold storage backups are located.
+The threat hunting team has identified some anomalous behaviour at one our of remote satellite facilities where our cold storage backups are located.
 The main IT administrator has been on leave this past week, but his account seems to login in consistently during off hours.
 
 Due to his level of access to the facility and IT infrastructure a breach using his credentials would be catosphrophic. The IT team has suspended his account,
@@ -22,7 +22,7 @@ One of our level-1 malware analysts has spent the last 4 hours trying to get pas
 
 We need you to find a method of getting past `garble's` obfuscation and identify the entry point of the actual malicious code.
 
-1. Double-click the `MaybeBad.bin.i64`. This will open up the IDA Pro project file our Malware analyst started. Unfortunately, he couldn't identify where the malicious code started due to the obfuscation. It's up to you to finish his work.
+1. Double-click the `GoDark.exe.i64`. This will open up the IDA Pro project file our Malware analyst started. Unfortunately, he couldn't identify where the malicious code started due to the obfuscation. It's up to you to finish his work.
 
 2. You'll notice the sample appears to be heavily obfuscated and hard to decipher where they entry point is to the actual sample. Open up `Good.bin.i64` and compare the functions between these two files. You should see 2 custom functions named `main_main` and `main_realImportantStuff`.
 
