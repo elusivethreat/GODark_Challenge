@@ -95,7 +95,7 @@ Using the top menu, hit:
 
  **Congratulations! You've made it to the first step of analyzing obfuscated golang malware... Finding the entry point.!**
 
-To really appreciate your accomplishment, look at `GoDark_clean.bin` to see all the symbolic information left by the golang compiler. You can easily find `runtime_main` and `main_main`. There will even be useful function names used by the malware authors. You can see why the try very hard to obfuscate their payloads as much as possible.
+To really appreciate your accomplishment, look at `GoDark_clean.bin` to see all the symbolic information left by the golang compiler. You can easily find `runtime_main` and `main_main`. There will even be useful function names used by the malware authors. You can see why they try very hard to obfuscate their payloads as much as possible.
 
 Something obvious to note would be.. well we could have just done a string search and look for weird or interesting strings like `GODark initalizing`. But, in reality all those strings are encrypted and there are no easy indicators!
 
