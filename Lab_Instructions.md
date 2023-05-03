@@ -95,7 +95,7 @@ Using the top menu, hit:
 
  **Congratulations! You've made it to the first step of analyzing obfuscated golang malware... Finding the entry point.!**
 
-To really appreciate your accomplishment, look at `GoDark_clean.exe` to see all the symbolic information left by the golang compiler. You can easily find `runtime_main` and `main_main`. There will even be useful function names used by the malware authors. You can see why the try very hard to obfuscate their payloads as much as possible.
+To really appreciate your accomplishment, look at `GoDark_clean.bin` to see all the symbolic information left by the golang compiler. You can easily find `runtime_main` and `main_main`. There will even be useful function names used by the malware authors. You can see why the try very hard to obfuscate their payloads as much as possible.
 
 Something obvious to note would be.. well we could have just done a string search and look for weird or interesting strings like `GODark initalizing`. But, in reality all those strings are encrypted and there are no easy indicators!
 
@@ -103,7 +103,7 @@ Good job and well done.
 
 ## Extra Credit:
 
-In the challenges folder is a file labeled `OneDrive.exe`. This is a very sophisticated shellcode loader that the hacking group saves for their high valued targets. It uses the **ScareCrow** framework to perform a list of evasion techniques before loading the shellcode. One of which is `Garble`.
+In the challenges folder is a file labeled `OneDrive.bin`. This is a very sophisticated shellcode loader that the hacking group saves for their high valued targets. It uses the **ScareCrow** framework to perform a list of evasion techniques before loading the shellcode. One of which is `Garble`.
 
 Our team found it dormint on the lead engineer's laptop. They believe this is where the **GoDark** payload came from. Can you extract the embedded shellcode from the loader and validate the payload?
 
