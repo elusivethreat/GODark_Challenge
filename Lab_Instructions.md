@@ -56,7 +56,7 @@ We will use the `$load_main_main` signature in IDA Pro to find our target functi
 
 **Remember `main.main` is where the "user-code" begins (i.e malware's main code)**
 
-4. Go back to your open IDAPro windows for `MaybeBad.bin.i64`.  
+4. Go back to your open IDAPro windows for `GoDark.exe.i64`.  
 Using the top menu, hit: 
     - `Search->Sequence of bytes...`
     - String field: `48 8B 05 ?? ?? ?? ?? 48 8D 15 ?? ?? ?? ?? FF D0`
